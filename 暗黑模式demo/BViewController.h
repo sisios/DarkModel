@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BViewController : UIController
+@interface BViewController : UIViewController
 
 @end
 
