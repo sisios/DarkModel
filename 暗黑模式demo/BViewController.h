@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  BViewController.h
 //  暗黑模式demo
 //
 //  Created by 未思语 on 2019/9/25.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface BViewController : UIController
 
 @end
 
+NS_ASSUME_NONNULL_END
